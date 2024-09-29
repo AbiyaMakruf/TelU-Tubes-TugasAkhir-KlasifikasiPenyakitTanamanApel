@@ -163,6 +163,5 @@ cython_debug/
 
 
 # Konfigurasi tambahan
-/dataset_cadangan
-/dataset_utama
-/dataset
+/data/ROOT
+/data/original_dataset_cadangan
