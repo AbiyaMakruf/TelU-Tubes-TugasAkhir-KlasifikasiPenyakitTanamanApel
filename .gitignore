@@ -163,5 +163,4 @@ cython_debug/
 
 
 # Konfigurasi tambahan
-/data/ROOT
-/data/original_dataset_cadangan
+/data
