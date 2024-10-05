@@ -13,4 +13,5 @@ pip install pandas
 pip install scikit-learn
 pip install scipy 
 pip install opencv-python
+pip install seaborn
 echo "Inisialisasi Berhasil"

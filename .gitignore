@@ -164,3 +164,4 @@ cython_debug/
 
 # Konfigurasi tambahan
 /data
+/best_model
