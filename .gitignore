@@ -166,3 +166,4 @@ cython_debug/
 /data
 /best_model
 /best_model_trainable
+efficientnet_b7_finetuned.h5
