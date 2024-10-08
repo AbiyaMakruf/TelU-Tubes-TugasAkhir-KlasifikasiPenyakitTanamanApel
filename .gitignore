@@ -167,3 +167,4 @@ cython_debug/
 /best_model
 /best_model_trainable
 efficientnet_b7_finetuned.h5
+ENB74CLASS.h5
