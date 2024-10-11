@@ -1,0 +1,6 @@
+gdown
+pandas
+scikit-learn
+scipy
+opencv-python
+seaborn

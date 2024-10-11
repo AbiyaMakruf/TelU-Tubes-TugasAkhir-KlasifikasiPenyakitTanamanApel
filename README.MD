@@ -31,3 +31,10 @@ ssh -T git@github.com
     ssh-keyscan github.com >> ~/.ssh/known_hosts
     fi
     ```
+
+# To Do
+- Berdasarkan train EN B0-B7 pilih variasi yang memberikan acc dan vall acc tertinggi.
+- Menggunakan model tersebut lakukan train ulang menggunakan dataset cadangan kemudian test ke dataset utama
+- Menggunakan model tersebut lakukan modifikasi menggunakan hardcode
+- Menggunakan model tersebut lakukan downsampling ke dataset cadangan kemudian test ulang
+- Menggunakan model tersebut train ulang namun menggunakan K fold cross validation

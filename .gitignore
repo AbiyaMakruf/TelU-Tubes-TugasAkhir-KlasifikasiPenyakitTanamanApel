@@ -164,7 +164,5 @@ cython_debug/
 
 # Konfigurasi tambahan
 /data
-/best_model_not_trainable
-/best_model_trainable
-efficientnet_b7_finetuned.h5
-ENB74CLASS.h5
+*.zip
+*.h5
