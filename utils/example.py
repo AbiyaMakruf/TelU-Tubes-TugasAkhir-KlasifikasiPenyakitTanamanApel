@@ -1,7 +1,8 @@
-from utils.split_by_class_dataset_utama_versi_submission import split_dataset_utama_versi_submission
-from utils.split_by_class_dataset_utama import split_dataset_utama
-from utils.split_train_test_dataset import split_dataset
-from utils.split_train_test_dataset_campuran import split_dataset_campuran
+from split_by_class_dataset_utama_versi_submission import split_dataset_utama_versi_submission
+from split_by_class_dataset_utama import split_dataset_utama
+from split_train_test_dataset import split_dataset
+from split_train_test_dataset_campuran import split_dataset_campuran
+from downsampling import downsample_and_move_to_new_folder
 
 split_dataset_utama(
     csv_file_train = 'data/ROOT/train.csv',
@@ -67,3 +68,11 @@ split_dataset_campuran(
     class_exception=class_exception_train_val, class_exception_test=class_exception_test, rename_map=rename_map
 )
 print("split_campuran done")
+
+# Downsampling
+base_dir = 'data/split_train_test_dataset_campuran/test'
+dest_dir = 'data/split_train_test_dataset_campuran_balanced_test/'
+
+# Panggil fungsi
+downsample_and_move_to_new_folder(base_dir, dest_dir, seed=42)
+
