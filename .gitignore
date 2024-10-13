@@ -163,6 +163,6 @@ cython_debug/
 
 
 # Konfigurasi tambahan
-/data
+/data/*
 *.zip
 *.h5
