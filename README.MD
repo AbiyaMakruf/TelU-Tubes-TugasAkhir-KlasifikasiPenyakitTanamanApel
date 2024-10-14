@@ -38,3 +38,13 @@ ssh -T git@github.com
 - Menggunakan model tersebut lakukan train ulang menggunakan dataset cadangan kemudian test ke dataset utama
 - Menggunakan model tersebut lakukan modifikasi menggunakan hardcode
 - Menggunakan model tersebut train ulang namun menggunakan K fold cross validation
+
+# QnA
+- Apakah modifikasi itu wajib? Atau dengan menggunakan fine-tuning (melatih ulang beberapa layer) saja sudah cukup?
+- Apakah modifikasinya seperti menghapus beberapa layer saja diperbolehkan?
+- Apakah import diperbolehkan?
+
+# Running Ubuntu
+- List distro: wsl --list --verbose
+- Terminate: wsl -t Ubuntu
+- Start: wsl --distribution Ubuntu
