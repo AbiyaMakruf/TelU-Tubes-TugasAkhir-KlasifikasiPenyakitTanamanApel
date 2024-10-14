@@ -2,11 +2,13 @@
 echo "Memperbarui repositori paket..."
 apt-get update
 apt-get install -y nano
+apt-get install unzip
+
 
 git config --global user.email "aabbiiyyaa@gmail.com"
 git config --global user.name "AbiyaMakruf"
 
-pip install -r utis/requirements.txt
+pip install -r utils/requirements.txt
 
 
 # Pastikan direktori .ssh ada

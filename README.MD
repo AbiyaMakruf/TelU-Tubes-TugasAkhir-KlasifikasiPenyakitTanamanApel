@@ -43,6 +43,21 @@ ssh -T git@github.com
 - Apakah modifikasi itu wajib? Atau dengan menggunakan fine-tuning (melatih ulang beberapa layer) saja sudah cukup?
 - Apakah modifikasinya seperti menghapus beberapa layer saja diperbolehkan?
 - Apakah import diperbolehkan?
+- Q: Kapan harus mengganti judul di SK TA?
+A:
+
+Q: Apakah di BAB IV saya harus memasukan performansi dari B0-B7 baik untuk yang fine tuning dan tanpa fine tuning?
+A:
+
+Q: Apakah harus melakukan modifikasi? Atau melakukan fine tuning saja cukup?
+A:
+
+Q: Apakah BAB III harus saya tulis ulang? Karena berbeda dengan ketika proposal.
+A:
+
+Q: Karena tidak ada penelitian sebelumnya yang menggunakan dataset berbeda untuk train dan test seperti saya, bagaimana acuan dari model yang saya buat sudah cukup baik? Karena saat ini paling tinggi adalah 0.85
+A:
+
 
 # Running Ubuntu
 - List distro: wsl --list --verbose
