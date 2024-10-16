@@ -166,3 +166,4 @@ cython_debug/
 /data/*
 *.zip
 *.h5
+*.keras
