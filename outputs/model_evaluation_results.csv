@@ -1,0 +1,7 @@
+Model,Dataset,Image Size,Batch Size,Test Loss,Test Accuracy
+EfficientNetB3,split_train_test_dataset_campuran,300,32,2.5927417278289795,0.49065420031547546
+EfficientNetB3,split_train_test_dataset_campuran_balanced_test,300,32,0.8124818205833435,0.6848484873771667
+EfficientNetB3,segmented_dataset,300,32,0.9018346071243286,0.5811764597892761
+EfficientNetB7,split_train_test_dataset_campuran,600,8,2.9222352504730225,0.5815420746803284
+EfficientNetB7,split_train_test_dataset_campuran_balanced_test,600,8,0.9596806168556213,0.6363636255264282
+EfficientNetB7,segmented_dataset,600,8,0.5796622633934021,0.8180392384529114

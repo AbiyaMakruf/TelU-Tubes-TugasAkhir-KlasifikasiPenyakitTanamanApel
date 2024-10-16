@@ -53,7 +53,7 @@ split_dataset(
 )
 print("split_cadangan done")
 
-# Split Campuran
+# Split Campuran dataset utama
 source_folder = "data/original_dataset_utama/train"
 dest_folder = "data/split_train_test_dataset_campuran"
 test_source_folder = "data/original_dataset_cadangan"
@@ -69,10 +69,27 @@ split_dataset_campuran(
 )
 print("split_campuran done")
 
+
+# Split Campuran dataset cadangan
+source_folder = "data/original_dataset_cadangan/"
+dest_folder = "data/split_train_test_dataset_campuran_dataset_cadangan"
+test_source_folder = "data/original_dataset_utama/train"
+class_exception_train_val = ["Black Rot"]  # Pengecualian untuk train dan val
+class_exception_test = ["multiple_diseases"]  # Pengecualian untuk test
+rename_map = {"Healthy": "healthy", "Scab": "scab", "Cedar Rust": "rust"} 
+
+# Membagi train dan val, serta menyalin test dengan pengecualian kelas yang ditentukan
+split_dataset_campuran(
+    source_folder, dest_folder, test_source_folder=test_source_folder,
+    train_ratio=0.8, val_ratio=0.2,
+    class_exception=class_exception_train_val, class_exception_test=class_exception_test, rename_map=rename_map
+)
+print("split_campuran dataset cadangan done")
+
+
 # Downsampling
 base_dir = 'data/split_train_test_dataset_campuran/test'
 dest_dir = 'data/split_train_test_dataset_campuran_balanced_test/'
 
 # Panggil fungsi
 downsample_and_move_to_new_folder(base_dir, dest_dir, seed=42)
-
