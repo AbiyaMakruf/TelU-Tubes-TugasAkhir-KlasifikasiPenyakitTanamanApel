@@ -1,0 +1,2 @@
+Model,Train Accuracy,Train Loss,Validation Accuracy,Validation Loss,Test Accuracy,Test Loss,Training Duration,Total Epoch
+EfficientNetB7,0.9965686202049255,0.019125930964946747,1.0,0.0029868062119930983,0.536994218826294,1.7536522150039673,8071.00013756752,49
