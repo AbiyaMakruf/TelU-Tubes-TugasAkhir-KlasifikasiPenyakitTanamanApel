@@ -27,4 +27,6 @@ if ! grep -q "github.com" ~/.ssh/known_hosts; then
     ssh-keyscan github.com >> ~/.ssh/known_hosts
 fi
 
+ssh -T git@github.com
+
 echo "Inisialisasi Berhasil"
