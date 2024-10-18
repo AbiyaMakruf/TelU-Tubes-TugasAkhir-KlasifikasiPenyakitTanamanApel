@@ -8,6 +8,7 @@ apt-get install unzip
 git config --global user.email "aabbiiyyaa@gmail.com"
 git config --global user.name "AbiyaMakruf"
 
+python3 -m pip install --upgrade pip
 pip install -r utils/requirements.txt
 
 
