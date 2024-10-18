@@ -33,9 +33,9 @@ ssh -T git@github.com
     ```
 
 # To Do
-- Berdasarkan train EN B0-B7 pilih variasi yang memberikan test acc tertinggi. ENB3 (Not Trainable) 0.80 & ENB7 (Trainable) 0.84
-- Menggunakan model tersebut lakukan downsampling ke dataset cadangan kemudian test ulang (coba segmented dan non segmented)
-- Menggunakan model tersebut lakukan train ulang menggunakan dataset cadangan kemudian test ke dataset utama
+- ~Berdasarkan train EN B0-B7 pilih variasi yang memberikan test acc tertinggi. ENB3 (Not Trainable) 0.80 & ENB7 (Trainable) 0.84~
+- ~Menggunakan model tersebut lakukan downsampling ke dataset cadangan kemudian test ulang (coba segmented dan non segmented)~
+- ~Menggunakan model tersebut lakukan train ulang menggunakan dataset cadangan kemudian test ke dataset utama~
 - Menggunakan model tersebut lakukan modifikasi menggunakan hardcode
 - Menggunakan model tersebut train ulang namun menggunakan K fold cross validation
 
@@ -56,3 +56,16 @@ ssh -T git@github.com
 # Referensi Dari Openlibrary
 - https://openlibrary.telkomuniversity.ac.id/home/catalog/id/217314/slug/klasifikasi-penyakit-citra-daun-pada-tanaman-anggur-berbasis-machine-learning-dalam-bentuk-buku-karya-ilmiah.html
 - https://openlibrary.telkomuniversity.ac.id/home/catalog/id/215210/slug/klasifikasi-penyakit-tanaman-menggunakan-convolutional-neural-network-cnn-dan-pemantauan-pertumbuhan-tanaman-cabai-dalam-bentuk-buku-karya-ilmiah.html
+
+# Laporan TA
+
+1. Apakah melakukan modifikasi (add/delete layer) itu wajib atau fine-tuning saja cukup? Jika iya apakah harus menggunakan source code asli atau boleh menggunakan import?
+2. Apakah pada penulisan TA hanya melanjutkan bab IV dan V atau boleh menulis ulang bab I-III jika terdapat revisi?
+
+Yg nomor 1 modif juga, bukan cuma fine tuning, nanti dibandingkan hasil ketiganya (original, fine tuning, modif+finetuning). Source code bangun sendiri, cari dulu aja kodingan orang.
+Nomor 2 silakan klo ada yg perlu disesuaikan di bab 1-3
+
+- Original (not modified, imagenet, 100 %freeze)
+- Original (not modified, imagenet, 50% freeze)
+- Original (not modified, None, 100% train)
+- Modified (Modified repeats = 1, None, 100% train)
