@@ -5,3 +5,5 @@ scipy
 opencv-python
 seaborn
 numba
+python-dotenv
+python-telegram-bot

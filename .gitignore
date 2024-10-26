@@ -170,3 +170,4 @@ cython_debug/
 =2.17.0
 Pipfile
 Pipfile.lock
+.env
