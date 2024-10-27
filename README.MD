@@ -69,3 +69,8 @@ Nomor 2 silakan klo ada yg perlu disesuaikan di bab 1-3
 - Original (not modified, imagenet, 50% freeze)
 - Original (not modified, None, 100% train)
 - Modified (Modified repeats = 1, None, 100% train)
+
+# Acknoledment
+- Jika precision tinggi tetapi recall rendah, sistem mendeteksi kanker hanya saat sangat yakin, tetapi beberapa pasien kanker mungkin tidak terdeteksi.
+- Jika recall tinggi tetapi precision rendah, sistem menangkap hampir semua pasien kanker tetapi mungkin memberi banyak alarm palsu.
+- F1-score yang tinggi menunjukkan sistem yang seimbang dalam ketepatan dan sensitivitas, cocok untuk deteksi yang membutuhkan keseimbangan.
