@@ -1,3 +1,6 @@
+# Paper yang dihasilkan
+https://github.com/AbiyaMakruf/TelU-Tubes-TugasAkhir-KlasifikasiPenyakitTanamanApel/blob/main/2024375917.pdf
+
 # Script create key for SSH
 ssh-keygen -t rsa -b 4096 -C "aabbiiyyaa@gmail.com"
 
