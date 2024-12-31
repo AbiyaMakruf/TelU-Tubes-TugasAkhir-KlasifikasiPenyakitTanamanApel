@@ -1,5 +1,5 @@
-# Paper yang dihasilkan
-https://github.com/AbiyaMakruf/TelU-Tubes-TugasAkhir-KlasifikasiPenyakitTanamanApel/blob/main/2024375917.pdf
+# Tugas Akhir Mahasisa S1 Informatika Telkom University
+Dibuat dalam format paper sebagai pengganti sidang. Tautan paper dapat diakses pada link [berikut](https://github.com/AbiyaMakruf/TelU-Tubes-TugasAkhir-KlasifikasiPenyakitTanamanApel/blob/b351c36564f996a1cf0d8e82cfada3626502c55c/Classification%20of%20Apple%20Leaf%20Diseases%20Using%20a%20Modified%20EfficientNet.pdf) dan tautan slide presentasi dapat diakses pada link [berikut](https://github.com/AbiyaMakruf/TelU-Tubes-TugasAkhir-KlasifikasiPenyakitTanamanApel/blob/d272042199a2a8a413af3facef52b1da064b7991/Presentasi%20ICICyTA%202024.pdf).
 
 # Script create key for SSH
 ssh-keygen -t rsa -b 4096 -C "aabbiiyyaa@gmail.com"
