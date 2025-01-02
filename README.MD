@@ -8,7 +8,7 @@ Dengan menggunakan dataset citra daun tanaman apel, model pembelajaran mesin aka
 - Cedar Apple Rust
 - Healthy
 
-Proyek ini merupakan repository dari paper [Classification of Apple Leaf Diseases Using a Modified EfficientNet]() dan [Slide Presentasi](). Berikut adalah sertifikat [Pembicara]() dan [Penulis]()
+Proyek ini merupakan repository dari paper [Classification of Apple Leaf Diseases Using a Modified EfficientNet](README/Paper_Classification_of_Apple_Leaf_Diseases_Using_a_Modified_EfficientNet.pdf) dan [Slide Presentasi](README/Presentation_Slide_Classification_of_Apple_Leaf_Diseases_Using_a_Modified_EfficientNet.pdf). Berikut adalah sertifikat [Pembicara](README/Certificate_Presenter.pdf) dan [Penulis](README/Certificate_Author.pdf)
 
 ## Fitur Utama
 - **Preprocessing Data**: Melakukan augmentasi dan normalisasi pada dataset.
@@ -45,16 +45,16 @@ Contoh citra dalam dataset:
 
 Preview Plant Pathology Dataset
 
-![Plant Pathology Dataset]()
+![Plant Pathology Dataset](README/Plant_Pathology_Dataset.png)
 
 Preview Plant Pathology Dataset
 
-![Plant Village Dataset]()
+![Plant Village Dataset](README/Plant_Village_Dataset.png)
 
 ## Arsitektur Model
 Preview Arsitektur EfficientNetV1 yang Sudah Dimodifikasi
 
-![Arsitektur EfficientNetV1 Modifikasi](README/Architecture of Modified EfficientNetV1.png)
+![Arsitektur EfficientNetV1 Modifikasi](README/Architecture_of_Modified_EfficientNetV1.png)
 
 ## Hasil Evaluasi
 Hasil evaluasi model yang dilatih dengan k-Fold:
@@ -64,7 +64,7 @@ Hasil evaluasi model yang dilatih dengan k-Fold:
 | Mean    | 0.978        | 0.967       | 0.820       | 0.799        | 0.607 | 0.598|
 | Std         | 0.004       | 0.0012        | 0.046      | 0.059         |0.083 | 0.101|
 
-Informasi lebih lengkap dapat dilihat didalam paper [Classification of Apple Leaf Diseases Using a Modified EfficientNet]().
+Informasi lebih lengkap dapat dilihat didalam paper [Classification of Apple Leaf Diseases Using a Modified EfficientNet](README/Paper_Classification_of_Apple_Leaf_Diseases_Using_a_Modified_EfficientNet.pdf).
 
 
 ## Prasyarat
