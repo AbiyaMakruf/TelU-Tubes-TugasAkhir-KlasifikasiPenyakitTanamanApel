@@ -54,7 +54,7 @@ Preview Plant Pathology Dataset
 ## Arsitektur Model
 Preview Arsitektur EfficientNetV1 yang Sudah Dimodifikasi
 
-![Arsitektur EfficientNetV1 Modifikasi]()
+![Arsitektur EfficientNetV1 Modifikasi](README/Architecture of Modified EfficientNetV1.png)
 
 ## Hasil Evaluasi
 Hasil evaluasi model yang dilatih dengan k-Fold:
