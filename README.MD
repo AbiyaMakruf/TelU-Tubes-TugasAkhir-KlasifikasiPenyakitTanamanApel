@@ -1,5 +1,5 @@
 # TelU-Tubes-TugasAkhir-KlasifikasiPenyakitTanamanApel
-
+![poster](README/poster.png)
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk membangun sebuah sistem klasifikasi penyakit tanaman apel menggunakan teknologi pembelajaran mesin (machine learning). Sistem ini dirancang untuk membantu petani atau agronom dalam mendiagnosis penyakit tanaman apel berdasarkan citra daun tanaman.
 
